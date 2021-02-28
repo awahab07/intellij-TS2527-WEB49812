@@ -10,7 +10,7 @@ export interface State {
 }
 
 export const initialState: State = {
-  name: 'example name',
+  name: 'example name' as ProgramName,
   sessionCount: 0
 };
 
